@@ -26,7 +26,7 @@ all: upstream $(AUTO) $(LWIP_LIB_RELEASE)
 upstream: lwip2-src/README
 
 lwip2-src/README:
-	git clone --depth=1 -b $(UPSTREAM_VERSION) https://git.savannah.nongnu.org/git/lwip.git lwip2-src
+	git clone https://github.com/FIAV1/lwip.git lwip2-src
 
 glue-lwip/lwip-err-t.h: $(LWIP_ESP)/arch/cc.h
 	( \
