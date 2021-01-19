@@ -3549,6 +3549,7 @@
 #define PPPOS_SUPPORT       IP_NAPT         // because we don't have proxyarp yet
 #define PPP_SUPPORT         PPPOS_SUPPORT
 #define PPP_SERVER          1
+#define PPP_MAXIDLEFLAG     0
 #define PPP_DEBUG           ULWIPDEBUG
 #define PRINTPKT_SUPPORT    ULWIPDEBUG
 
